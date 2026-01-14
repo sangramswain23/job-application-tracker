@@ -15,9 +15,11 @@ Spring Boot backend for tracking job applications, interview stages, and outcome
 **Tools:** Maven, Postman, STS, GitHub
 
 ## Application Status Flow
+```
 APPLIED → SHORTLISTED → INTERVIEW → OFFERED
                             ↓
                          REJECTED
+```
 
 Invalid transitions are blocked at the domain level.
 
